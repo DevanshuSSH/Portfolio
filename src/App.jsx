@@ -2,7 +2,7 @@ import Navbar from "./componants/navbar"
 import Hero from "./componants/Hero"
 import Tech from "./componants/Tech"
 import Projects from "./componants/projects"
-import Contact from "./componants/contact"
+import Contact from "./componants/Contact"
 
 function App() {
 
