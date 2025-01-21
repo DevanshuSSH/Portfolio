@@ -1,7 +1,7 @@
-import Navbar from "./componants/navbar"
+import Navbar from "./componants/Navbar"
 import Hero from "./componants/Hero"
 import Tech from "./componants/Tech"
-import Projects from "./componants/projects"
+import Projects from "./componants/Projects"
 import Contact from "./componants/Contact"
 
 function App() {

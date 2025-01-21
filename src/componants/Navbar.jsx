@@ -32,7 +32,7 @@ const Navbar = () => {
                 </a>
             </ul>
 
-            <ul className="hidden md:flex gap-5">
+            {/* <ul className="hidden md:flex gap-5">
                 <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
                     <BsYoutube />
                 </li>
@@ -44,7 +44,9 @@ const Navbar = () => {
                 <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
                     <BsTwitter />
                 </li>
-            </ul>
+            </ul> */}
+            <a href="" className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-sm font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl hover:shadow-indigo-600">Download CV</a>
+
 
             {isOpen ? (
                 <BiX className="block md:hidden text-4xl" onClick={menuOpen} />
