@@ -1,4 +1,4 @@
-import image from "/dugu.jpg"
+import image from "/ds.png.jpg"
 import { motion } from "framer-motion"
 const Hero = () => {
     return (
